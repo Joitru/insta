@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    width: 1900px;
+    height: 70px;
+    padding-top: 22px;
+    
+    
+}
+
+.container{
+    max-width: 1301px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.nav-link{
+    margin-right: 43px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.button-primary{
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 50px;
+    background: #06f;
+}
+
+.button-text-primary{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+}
+
+
+.button-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 81%;
+    color: #000;
+}
+
+
+
+.button-secondary{
+    border: none;
+    width: 70px;
+    height: 50px;
+    background: #fff;
+}
+
+
+.promo-title{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 107%;
+    color: #000;
+}
+
+.promo-text{
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: #000;
+
+}
+
+
+.promo-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.promo{
+    padding-top: 50px;
+}
+
+
+.input{
+    padding-top: 50px;
+    
+    
+}
+
+
+.email{
+    border: 3px solid #06f;
+    border-radius: 5px 5px 5px 5px;
+    padding: 16px 13px;
+    width: 250px;
+    height: 10px;
+}
+
+
+.submit{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    padding: 16px 13x;
+    width: 156px;
+    height: 49px;
+    background: #06f;
+}
+
+.input-text{
+    padding-top: 20px;
+    display: flex;
+    
+    
+
+}
+
+.text-input{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.trusted-by{
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.trusted-by-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.company-logo{
+    margin: 10px 20px;
+    max-width: 100px;
+    height: auto;
+ }
+
+
+.trusted-by-title{
+    font-weight: 300;
+    font-size: 23px;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #9ca0ac;
+}
+
+.main-promo{
+    background: linear-gradient(183deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);
+}
+
+.about{
+    padding-top: 120px;
+}
+
+.about-content{
+   margin-left: 300px;
+    
+}
+
+.main-about{
+    width: 1900px;
+    height: 900px;
+}
+
+.container-2{
+    max-width: 1301px;
+    margin: auto;
+}
+.benefist{
+    background: #eef1f7;;
+    padding-top: 150px;
+    height: 636px;
+    
+    
+}
+
+
+.card{
+    border-radius: 10px;
+    padding: 30px;
+    width: 230px;
+    height: 150px;
+    background: #fff;
+    margin-right: 20px;
+    box-shadow: 0 0 10px 0 rgba(156, 160, 172, 0.4);
+    
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.text_bnf{
+    text-align: center;
+    
+}
+
+.title-bnf{
+    font-weight: 900;
+    font-size: 48px;
+    color: #000;
+}
+
+.text-bnf{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+}
+
+
+
+.twxt{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+}
+
+
+.imf-bnf{
+    margin-left: 65px;
+}
+
+.container-3 > h2{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    color: #000;
+}
+
+.card-benefis{
+    border-radius: 10px;
+    padding: 20px;
+    width: 420px;
+    height: 218px;
+    background: #eef1f7;
+    margin-left: 20px;
+    
+}
+
+.cards-benefis{
+    display: flex;
+    padding-top: 80px;
+
+}
+
+.card-benefis >h3{
+    font-weight: 900;
+    font-size: 32px;
+    color: #000;
+    
+    
+}
+
+.text-benefis > h4{
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 15px;
+    color: #000;
+}
+
+
+.card-benefis >p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    color: #000;
+    
+}
+
+.container-3{
+    max-width: 1301px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.text-benefis{
+    padding-top: 30px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.coment{
+    padding-top: 80px;
+}
+
+.coment > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+}
+
+.com >p{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    color: #000;
+}
+
+.com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
